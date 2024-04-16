@@ -21,7 +21,7 @@ let weather; // OR let weather = undefined // Undefined
 // Symbol,
 const id = Symbol('123')
 const anotherId = Symbol('123') 
-/* The return type for both will be the data type, Symbol and both id & anotherId treated diffrently.
+/* The return type for both will be the data type (Symbol) and both id & anotherId treated diffrently.
 To check, */
 console.log(id === anotherId); // false
 const bigNumber = 23873847283748289483n // By writing n at the end it gets converted into BigInt.
