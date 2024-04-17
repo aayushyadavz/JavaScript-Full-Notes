@@ -15,7 +15,7 @@ If you have any feedback, please reach out to us at ayushyadav24nov1234@gmail.co
 
 ## Extra Notes
 
-![Alt Text](/Some_Extra_Notes/IMG_20240418_015525_14.jpg)
+![Alt Text](/go_in_readme.md/IMG_20240418_015525_14.jpg)
 
 
 
