@@ -1,6 +1,6 @@
-// 7. Strings
+/* 7. Strings
 
-// (i) Concatenation in Strings,
+(i) Concatenation in Strings, */
 const name = "Ayush"
 const repoCount = 19
 // Outdated Syntax,
@@ -8,7 +8,9 @@ console.log(name + repoCount + " etc."); // Output : Ayush19 etc.
 // Modern day Syntax,
 console.log(`My name is ${name} and I have total ${repoCount} repositories on GiHub.`);
 // Output : My name is Ayush and I have total 19 repositories on GiHub.
-// Note: Benifits of this syntax is that we can use methods like, ${name.toUpperCase} e.t.c.
+/* Note: Benifits of this syntax is that we can use methods like, ${name.toUpperCase} e.t.c.
+
+-------------------------------------------------------------------------------------------------- */
 
 // (ii) One more way of declaring strings,
 const gameName = new String('SuperMario') /* When we run this in Browser's console we can see

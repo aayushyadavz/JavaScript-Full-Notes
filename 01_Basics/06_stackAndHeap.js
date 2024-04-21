@@ -8,7 +8,9 @@ let anotherName = myYoutubeName // This will have the copy value of myYoutubeNam
 anotherName = "amanyadavz" // It's value will go in stack.
 console.log(myYoutubeName); // Output : ayushyadavz (Original value did not change)
 console.log(anotherName); // Output : amanyadavz (Only Copy value is changed)
-// So, here we have changed the copy not the original value.
+/* So, here we have changed the copy not the original value.
+
+---------------------------------------------------------------------------------------- */
 
 // Example of Heap,
 let userOne = { // UserOne will go into Stack. (Primitive)
