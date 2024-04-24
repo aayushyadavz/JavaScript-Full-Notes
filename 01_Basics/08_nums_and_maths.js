@@ -16,7 +16,7 @@ const newBalance = new Number(400)
 // Some Methods,
 // console.log(newBalance.toString()); // Output: 400 
 // Note: When we will check it's typeof the we will see that it is changed into strings.
-// console.log(newBalance.toString().length); // Output: 3 (cause 100 has 3 chracters.)
+// console.log(newBalance.toString().length); // Output: 3 (cause 400 has 3 chracters.)
 
 // console.log(newBalance.toFixed(2)); // Output: 400.00
 
@@ -33,7 +33,7 @@ const hundreds = 1000000
 
 (ii) Maths, */
 console.log(Math); /* Output: Object [Math] {} 
-Note: When we run this console.log(Math) in browser's console we will get value under object. */
+Note: When we run this console.log(Math) in browser's console we will get many value inside object. */
 
 console.log(Math.abs(-4)); // Output: 4 (Changes only minus values in plus)
 
@@ -47,7 +47,7 @@ Note: There is also "max". */
 
 console.log(Math.random()); // Output: 0.36675387800250636 (Gives random numbers between 0 & 1)
 console.log((Math.random()*10) + 1); // Now numbers will range from 1 to 9
-console.log(Math.floor(Math.random()*10) + 1); // Round offs at Random numbers at lowest value.
+console.log(Math.floor(Math.random()*10) + 1); // Round offs the Random numbers at lowest value.
 
 const min = 10
 const max = 20
