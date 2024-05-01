@@ -13,10 +13,13 @@ const course = {
 const {courseInstructor: instructor} = course
 console.log(instructor); // Output: Ayush
 
-/*--------------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------------
+An API is like a menu at a restaurant. It tells you what you can order and how to ask for it. 
+It lets different software talk to each other and share information.
+
 JSON (Javascript Object Notation), 
-API can provide data in a structured format such as JSON,
-JSON's structure is easy for humans to read and understand,
+JSON is a way to organize data in a simple format that both humans and computers can understand.
+It's like putting information in a neat box for easy shipping.
 
    {
       "name": "Ayush",
