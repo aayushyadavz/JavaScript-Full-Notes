@@ -1,4 +1,4 @@
-// 4. Nested Scope
+// 4. Nested Scope,
 
 function one () {
     const username = "Ayush"
