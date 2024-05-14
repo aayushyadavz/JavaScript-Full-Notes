@@ -14,10 +14,10 @@ If you have any feedback, please reach out to us at ayushyadav24nov1234@gmail.co
 
 
 ## Extra Notes
-
+### 06 Stack and Heap
 ![Alt Text](/go_in_readme.md/IMG_20240418_015525_14.jpg)
 
-
-
-
-
+### 03 Basics / 07 JS execute code 
+![Alt Text](/go_in_readme.md/WhatsApp%20Image%202024-05-14%20at%2014.25.25_9cce0712.jpg)
+![Alt Text](/go_in_readme.md/WhatsApp%20Image%202024-05-14%20at%2014.25.59_0abfe2ed.jpg)
+![Alt Text](/go_in_readme.md/WhatsApp%20Image%202024-05-14%20at%2014.26.26_410bbaae.jpg)
