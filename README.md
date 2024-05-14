@@ -18,7 +18,7 @@ If you have any feedback, please reach out to us at ayushyadav24nov1234@gmail.co
 ![Alt Text](/go_in_readme.md/IMG_20240418_015525_14.jpg)
 
 ### 03 Basics / 07 JS execute code 
-
+![Alt Text](/go_in_readme.md/IMG_20240418_015525_14.jpg)
 
 
 
