@@ -32,7 +32,9 @@ if (true) {
 // Note: We cannot access username variable outside the scope.
 /* Output: Ayush Youtube 
 
-**************************** Interesting ***********************************/
+**************************** Interesting **********************************
+Hoisting, */
+
 console.log(addone(5));
 
 function addone (num) {

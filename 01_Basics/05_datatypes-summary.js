@@ -54,8 +54,7 @@ console.log(typeof weather); // undefined
 console.log(typeof anotherId); // symbol
 console.log(typeof bigNumber); // bigint
 
-// No Primitive,
+// Non Primitive,
 console.log(typeof heros); // Object
 console.log(typeof myObj); // object
 console.log(typeof myFunction); // function
-

@@ -4,7 +4,7 @@
 When Javascript automatically defines the data type, */
 const balance = 400
 // console.log(balance); // Output: 400
-// Note: Here Javascript automatically detected that the score type is number.
+// Note: Here Javascript automatically detected that the balance type is number.
 
 // But we can also define explicitely the data type,
 const newBalance = new Number(400)

@@ -48,4 +48,3 @@ const myNewArr2 = myArr.splice(1, 3)
 console.log(myNewArr2); // Output: [ 1, 2, 3 ]
 console.log("C ", myArr); // Output: C  [ 0, 4 ]
 // Note: But in splice we can see it removes the elements and manipulates the original array.
-

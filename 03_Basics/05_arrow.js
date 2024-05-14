@@ -33,15 +33,15 @@ const three = function (){
 }
 // three() // Output: undefined 
 
-/* ---------------------------------------------------------------------------
+/* -----------------------------------------------------------------------------
 Arrow Function, */
 
 const chai = () => { // It's an arrow function
     let name = "Ayush"
-    console.log(this.username);
+    console.log(this.name);
 }
 chai() // Output: undefined
-// Note: If in arrow function we do console.log(this) then we get empty {}
+// Note: If in this arrow function we do console.log(this) then we get empty {}
 
 // Explicit Return
 const addTwo = (num1, num2) => {

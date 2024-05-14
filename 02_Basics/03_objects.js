@@ -16,7 +16,7 @@ const jsUser = {
     "full name": "Ayush Yadav",
     [mySym]: "myKey1", // refering that above declared Symbol as objects key using [].
     age: 21,
-    loctaion: "Azamgarh",
+    location: "Azamgarh",
     email: "ayushyadav@gmail.com",
     isLoggedIn: false,
     lastLoggedInDays: ["Monday", "Tuesday", "Thursday"] // Array as value.

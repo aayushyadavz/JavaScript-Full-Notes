@@ -1,6 +1,6 @@
 // 6. Stack & Heap
 
-// * Some notes also available in note book with Diagram. Photo available in readme.md
+// Some notes also available in note book with Diagram. Photo available in readme.md
 
 // Example of Stack,
 let myYoutubeName = "ayushyadavz" // Primitive Type so myYoutubeName will go into stack.
