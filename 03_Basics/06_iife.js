@@ -13,4 +13,7 @@ Note: Using semicolon ; to end the first IIFE function.
 Simple IIFE, */
 ((name) /* parameter */ => {
     console.log(`DB Connected, ${name}`);
-})("Ayush") // argument | Output: DB Connected, Ayush
+})("Ayush") /* argument | Output: DB Connected, Ayush
+
+******************* 07 JS Execute Code - Call Stack is in readme.md ************
+***************************** JS Basics The End ********************************/
