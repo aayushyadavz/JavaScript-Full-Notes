@@ -1,7 +1,7 @@
 /* Control flow, 
-In previous codes we have seen that our code is executing everywhere,
-but it should not be excecuted always, whole code should run on 
-conditional base and this is known as Control/Logic Flow. */
+In previous codes we have seen that our code is executing everywhere, but it should not 
+be excecuted always, whole code should run on conditional base and this is known as 
+Control/Logic Flow. */
 
 /* Comparison Operators, 
 <, > : less than, greater than. eg. 1 < 2
@@ -56,7 +56,7 @@ if (userLoggedIn && debitCard /* && 2 == 2 */) /* left & right to && should be t
 } // Output: Allow to shop.
 // Note: No statement should be false.
 
-// || (OR) : Checks multiple conditions
+// || (OR) 
 if (loggedInWithEmail || loggedInWithGoogle /* || true */) /* from both if anyone is true */ {
     console.log("User Logged In");
 } // Output: User Logged In
