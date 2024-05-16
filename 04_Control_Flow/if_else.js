@@ -46,6 +46,7 @@ if (balance < 500) {
     console.log("less than 1200");
 } // Output: less than 1200
 
+// Logical Operators
 const userLoggedIn = true
 const debitCard = true
 const loggedInWithGoogle = false
@@ -60,3 +61,20 @@ if (userLoggedIn && debitCard /* && 2 == 2 */) /* left & right to && should be t
 if (loggedInWithEmail || loggedInWithGoogle /* || true */) /* from both if anyone is true */ {
     console.log("User Logged In");
 } // Output: User Logged In
+
+// Nullish coalescing operator (??): null, undefined
+let val1;
+val1 = 10 ?? 15
+console.log(val1); // Output: 10
+val1 = null ?? 10
+console.log(val1); // Output: 10
+val1 = undefined ?? 13
+console.log(val1); // Output: 13
+val1 = null ?? 10 ?? 15
+console.log(val1); // Output: 10
+
+// Ternary Operator (?)
+// Condition ? true : false
+const iceTeaPrice = 100
+iceTeaPrice <= 100 ? /* true */ console.log("less than 80") : /* false */ console.log("more than 80")
+// Output: more than 80
