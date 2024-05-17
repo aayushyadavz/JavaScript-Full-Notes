@@ -1,6 +1,6 @@
 // for Loop
 
-for (let i = 1; i <= 10; i++) {
+for (let i = 1; i <= 10 /* "<=" included 10 */; i++) {
     const element = i;
     console.log(element);
 }
@@ -25,7 +25,7 @@ for (let i = 1; i <= 10; i++) {
     }
     console.log(element);
 } /* Output: prints number from 1 to 4 but when its comes on 5 it prints '5 is the 
-best number' and then prints number 5 to 10 
+best number' and then prints numbers 5 to 10.
 
 --------------------------------------------------------------------------------------
 Loop inside Loop, */
@@ -59,7 +59,7 @@ for (let i = 1; i <= 10; i++) {
         // break 
         // Note: When (i == 5) then break will break the control flow.
         continue
-        // Note: On 5, prints the console.log then after that continues with 6.
+        // Note: On 5, prints the console.log then after that continues with 6 to 10.
     }
     console.log(`value of i is ${i}`);
 }
