@@ -46,7 +46,7 @@ if (balance < 500) {
     console.log("less than 1200");
 } // Output: less than 1200
 
-// Logical Operators
+// Logical Operators (Checks multiple conditions)
 const userLoggedIn = true
 const debitCard = true
 const loggedInWithGoogle = false
