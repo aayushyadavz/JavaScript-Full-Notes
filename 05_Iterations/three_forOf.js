@@ -26,7 +26,7 @@ const map = new Map()
 map.set('IN', "India")
 map.set('USA', "America")
 map.set('Fr', "France")
-// Adding the same key and value again
+// Adding the same key and value again,
 // map.set('IN', "India") // It will not be added
 /* Note: As Map is known for it's unique values and
 stays in that order on which it is entered. */

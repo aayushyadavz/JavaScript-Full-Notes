@@ -30,8 +30,8 @@ map.set('IN', "India")
 map.set('USA', "America")
 map.set('Fr', "France")
 
-for (const key in map) {
-    console.log(key);
+for (const [key, value] in map) {
+    console.log(key, '=', value);
 } // Output: Runs but gives not value
 
 // Note: Maps is not iterable in 'for in' loop.
