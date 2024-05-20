@@ -1,4 +1,4 @@
-// For of
+// For of Loop
 
 // 'For of' on Array
 const numbers = [1, 2, 3, 4, 5]

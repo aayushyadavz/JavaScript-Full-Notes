@@ -1,4 +1,4 @@
-// While
+// While Loop
 
 let index = 0 // Variable Initialisation
 
