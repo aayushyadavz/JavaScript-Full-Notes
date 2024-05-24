@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .bg-black {
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+    <title>DOM Learning</title>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">DOM Learning on Chai Aur Code <span style="display: none;">test text</span></h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Quia fugiat nostrum aperiam explicabo?</h2>
+        <h2>Eos harum voluptate explicabo quod.</h2>
+        <h2>Sit explicabo officia minima voluptatibus.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password">
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+<!--(1) getElementById() : document.getElementById('title') target that h1 element 
+        with it's id.
+    (i) document.getElementById('title').id and document.getElementById
+        ('title').className, gives id and class value of that targeted element.
+    (ii) document.getElementById('title').getAttribute('class') gives value of 
+        that attribute. 
+    (iii) document.getElementById('title').setAttribute('class', 'head') 
+        overwrites the previous attribute value.
+    (iv) document.getElementById('title').setAttribute('class', 'head heading')
+        to set the both as value.
+    (v) const title = document.getElementById('title') we can store this into a
+        variable. 
+    (vi) title.style.backgroundColor = "green"; title.style.padding = "10px"; 
+        title.style.borderRadius = "15px", sets styling on that h1 element. 
+    
+-----------------------------------------------------------------------------------------
+    (2)
+    (i) title.innerText, shows actual visible text.
+    (ii) title.textContent, shows visible text content as well as span's text content.
+    (iii) title.innerHTML, shows text inside h1 also with html inside it (<span></span>) 
+     
+-----------------------------------------------------------------------------------------
+    (3) Query Selector (used more in real world)
+    (i) document.querySelector('h2'), selects only the first h2.
+    (ii) document.querySelector('#title') and document.querySelector('.heading'), 
+        selects the element with these class and ids.
+    (iv) document.querySelector('input[type="password"]'), selects that input element.
+    (v) Turning that ul's first li to bg green,
+        document.querySelector("ul")
+        const myul = document.querySelector("ul")
+        const turnGreen = myul.querySelector("li")
+        turnGreen.style.backroundColor = "green" 
+    (vi) turnGreen.innerText = "five", overwriting value of first li item. -->
