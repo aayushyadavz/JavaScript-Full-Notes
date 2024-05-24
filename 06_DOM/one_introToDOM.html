@@ -1,0 +1,39 @@
+<!--DOM : Document Object Model
+    Document : HTML
+    Object : head, body e.t.c 
+
+    The Document Object Model (DOM) in JavaScript is a programming 
+    interface for web documents. It represents the structure of a 
+    document (like HTML or XML) as a tree of objects. 
+    
+    In Browser's console :
+    (i) console.log(window) This window is a object.
+    (ii) console.log(window.document) or console.log(document) to 
+    get document details like DOCTYPE, html element, head, body e.t.c
+    (iii) console.dir(document) to get more hidden infromations. 
+    (iv) eg. console.log(document.link[2]) to access 2nd link of that 
+    web page, so we can access things like this. link[2] (not an array,
+    it's html collection)
+
+Check Readme.md file to check it's diagram, -->
+<!DOCTYPE html>
+<html lang="en"> <!-- Document starts from this HTML tag -->
+<head>
+    <meta charset="UTF-8">
+
+    <title>DOM Learning</title>
+</head>
+<body>
+    <div class="bg-black">
+        <h1 class="heading">DOM Learning on Chai Aur Code</h1>
+        <p>Lorem ipsum dolor sit amet.</p> 
+    </div>
+</body>
+</html>
+
+<!--DOM Manipulation :
+    (i) document.getElementById('firstHeading') 
+    Selecting some heading with a ID of 'firstHeading'
+    (ii) document.getElementById('firstHeading').innerHTML = "<h1>Chai Aur Code</h1>" 
+    replacing that heading text with my text.
+    (iii) Practiced these on : https://en.wikipedia.org/wiki/Brendan_Eich-->
