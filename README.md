@@ -21,5 +21,5 @@ If you have any feedback, please reach out to us at ayushyadav24nov1234@gmail.co
 ![Alt Text](/go_in_readme.md/WhatsApp%20Image%202024-05-14%20at%2014.25.59_0abfe2ed.jpg)
 ![Alt Text](/go_in_readme.md/WhatsApp%20Image%202024-05-14%20at%2014.26.26_410bbaae.jpg)
 
-### 06_DOM / one_introToDOM.html
+### 06_DOM / one_introToDOM.html / Diagram
 ![Alt Text](/go_in_readme.md/IMG_20240524_130230_425.jpg)
