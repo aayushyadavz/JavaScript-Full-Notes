@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .bg-black {
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+    <title>DOM Learning</title>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">DOM Learning on Chai Aur Code <span style="display: none;">test text</span></h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Quia fugiat nostrum aperiam explicabo?</h2>
+        <h2>Eos harum voluptate explicabo quod.</h2>
+        <h2>Sit explicabo officia minima voluptatibus.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password">
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">four</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+<!--(1) Nodelist :
+    (i) document.querySelectorAll('li'), gives us nodelist with some prototype which seems
+        like an array but nodelist is not an pure array.
+    (ii) const tempLiList = document.querySelectorAll('li'), we can store it into a variable.
+    (iii) tempLiList[0].style.color = "green", colors first list item green.
+    (iv) We get foreach in nodelist prototype so,
+        tempLiList.forEach( function (li) {
+            li.style.backgroundColor = "green"
+        } ), colors all list item bg to green.  
+    
+----------------------------------------------------------------------------------------------
+
+    (2) HTML Collection :
+    (i) document.getElementById('list-item'), gives us HTMLCollections with some prototype 
+        which seems like an array but HTMLCollections is not an pure array.
+    (ii) It doesn't have for Each, so we have to convert it into Array,
+        const tempClassList = document.getElementById('list-item')
+        Array.from(tempClassList)
+        const myConvertedArray = Array.from(tempClassList)
+        myConvertedArray.forEach( function (l) {
+            l.style.color = "red"
+        } ) -->
