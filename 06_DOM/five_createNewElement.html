@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+    // Note: See some changes and console logs on browser's console.
+    
+    // Creating Div element
+    const div = document.createElement('div')
+    console.log(div); // div element starts showing in browser's console.
+
+    // Adding class, id, coustom attribute, styling,
+    div.className = "main" // Class="main", will be added in that div element.
+    div.id = Math.floor(Math.random() * 10 + 1) /* Adds id with the value of 
+    random numbers from 1 to 9 will be added. */
+    div.setAttribute('title', 'generated title') /* Coustom attribute with 
+    value will be added in that div element. */
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    // Style will be added in that div.
+    
+    // Adding Text,
+    // /* (i) */ div.innerText = "Ayush Yadav" // Overwrites
+    /* (ii) */ const addText = document.createTextNode('Ayush Yadav')
+    div.appendChild(addText) // Text will be added in that div element.
+
+    // Attaching these on document,
+    document.body.appendChild(div)
+</script>
+</html>
