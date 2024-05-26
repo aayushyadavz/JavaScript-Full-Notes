@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thrusday</div>
+    </div>
+</body>
+<script>
+    // Note: See some changes and console logs on browser's console.
+    
+    // Selecting Parent element
+    const parent = document.querySelector('.parent')
+    // Using querySelector cause there is one parent element.
+    console.log(parent);
+    console.log(parent.children); // Gives HTMLCollection
+    // Accessing elements
+    console.log(parent.children[1].innerHTML); // Tuesday
+    
+    // For Loop on HTMLCollection
+    for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML);
+    }
+
+    // Styling on Children
+    parent.children[1].style.color = 'orange'
+    console.log(parent.firstElementChild); // Gives the first child element.
+    console.log(parent.lastElementChild); // Gives the last child element.
+
+    // From child to parent
+    const dayOne = document.querySelector('.day')
+    console.log(dayOne); // Selects the first element 
+    console.log(dayOne.parentElement); // Selects parent element
+    console.log(dayOne.nextElementSibling); // Selects next element to the first element.
+
+    console.log("Nodes: ", parent.childNodes); // Gives the Nodelist
+</script>
+</html>
