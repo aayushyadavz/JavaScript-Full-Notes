@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    // (i) Creating List Item
+    function addLanguageName(langName) {
+        const li = document.createElement('li') // Element created
+        li.innerHTML = `${langName}` // Adding value
+        document.querySelector('.language').appendChild(li) // Attaching
+    }
+    addLanguageName("Python") // Python will be added under Javascript
+
+    // (ii) Optipmized Method
+    function addOptiLanguage(langName) {
+        const li = document.createElement('li') // Element created
+        li.appendChild(document.createTextNode(langName)) // Adding value
+        document.querySelector('.language').appendChild(li) // Attaching
+    }
+    addOptiLanguage("Java")
+
+    //---------------------------------------------------------------------------------------
+
+    // (i) Edit
+    const secondLang = document.querySelector('li:nth-child(2)') // Selected 2nd list item
+    // secondLang.innerHTML = "C++" // Not the optimized approach for bigger projects.
+
+    // (ii) Edit 
+    const newli = document.createElement('li') // Element created
+    newli.textContent = "C++" 
+    secondLang.replaceWith(newli) // Python will be replaced with C++
+
+    // (iii) Edit
+    const firstLang = document.querySelector('li:first-child')
+    firstLang.outerHTML = ('<li>Typescript</li>')
+
+    //---------------------------------------------------------------------------------------
+
+    // Remove
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove() // Last list item with text java will be removed.
+</script>
+</html>
