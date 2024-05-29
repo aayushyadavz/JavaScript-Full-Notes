@@ -15,9 +15,9 @@ if (true) { // (true) states that we will go inside this if statement.
 // console.log(b); // Throw an error that 'b' is not defined
 // Note: It is good that variable a & b are not going outside the scope.
 // console.log(c); // Output: 30
-/* Note: This 30 should not come outside.That's the problem of var keyword.
+/* Note: This 30 should not come outside. That's the problem of var keyword.
 
---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
 Global Scope, */
 let a = 100
 const b = 200
@@ -34,8 +34,8 @@ console.log(a); // Output: 100
 console.log(b); // Output: 200
 console.log(c); // output: 30
 
-/* Note: Values of Global scope can be available inside {} but values written inside
-{} should not go outside {}
+/* Note: Values of Global scope can be available inside {} but values written inside {} should not go 
+outside {}
 
-Note: The scope checked in browsers console and the scope checked in our code
-enviroment using node are different. */
+Note: The scope checked in browsers console and the scope checked in our code enviroment using node 
+are different. */

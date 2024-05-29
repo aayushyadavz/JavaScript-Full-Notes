@@ -30,8 +30,8 @@
 </html>
 
 <!--(1) Nodelist :
-    (i) document.querySelectorAll('li'), gives us nodelist with some prototype which seems
-        like an array but nodelist is not an pure array.
+    (i) document.querySelectorAll('li'), gives us nodelist with some prototype which seems like an array 
+        but nodelist is not an pure array.
     (ii) const tempLiList = document.querySelectorAll('li'), we can store it into a variable.
     (iii) tempLiList[0].style.color = "green", colors first list item green.
     (iv) We get foreach in nodelist prototype so,
@@ -39,14 +39,13 @@
             li.style.backgroundColor = "green"
         } ), colors all list item bg to green.  
     
-----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
 
     (2) HTML Collection :
-    (i) document.getElementById('list-item'), gives us HTMLCollections with some prototype 
-        which seems like an array but HTMLCollections is not an pure array.
+    (i) document.getElementsByClassName('list-item'), gives us HTMLCollections with some prototype which 
+        seems like an array but HTMLCollections is not an pure array.
     (ii) It doesn't have for Each, so we have to convert it into Array,
-        const tempClassList = document.getElementById('list-item')
-        Array.from(tempClassList)
+        const tempClassList = document.getElementsByClassName('list-item')
         const myConvertedArray = Array.from(tempClassList)
         myConvertedArray.forEach( function (l) {
             l.style.color = "red"

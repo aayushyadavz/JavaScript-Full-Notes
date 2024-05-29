@@ -10,12 +10,11 @@ for (let i = 1; i <= 10 /* "<=" included 10 */; i++) {
 (i) i = 1, Variable initialisation.
 (ii) i <= 10, Condition check. If true then code inside {} executes.
 (iii) i++, and then it increaments.
-(iv) And if checking failed or condition is false then it throws out of {} at line 
-number 8. */
+(iv) And if checking failed or condition is false then it throws out of {} at line number 8. */
 
 /* console.log(element); Output: error | As we know about block scope.
 
---------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 if statment inside for loop, */
 
 for (let i = 1; i <= 10; i++) {
@@ -27,7 +26,7 @@ for (let i = 1; i <= 10; i++) {
 } /* Output: prints number from 1 to 4 but when its comes on 5 it prints '5 is the 
 best number' and then prints numbers 5 to 10.
 
---------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 Loop inside Loop, */
 for (let i = 2; i <= 10; i++) {
     console.log(`Table of ${i} is:`);
@@ -36,10 +35,9 @@ for (let i = 2; i <= 10; i++) {
     }
 } // Output: It will print Tables from 2 to 10.
 
-/* Note: In this upper Loop when outer loop runs one time then inner loop runs 10 
-times. 
+/* Note: In this upper Loop when outer loop runs one time then inner loop runs 10 times. 
 
---------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 Array with Loops, */
 
 let myArr = ["IronMan", "Thor", "Captain America"]
@@ -47,10 +45,10 @@ for (let index = 0; index < myArr.length; index++) {
     const element = myArr[index];
     console.log(element);
 }
-/* Note: As we know array index starts from 0 (index = 0) and here myArr.length
-is 3. So, it will run from 0 index to 2 which is less than 3 (index < myArr.length) 
+/* Note: As we know array index starts from 0 (index = 0) and here myArr.length is 3. So, it 
+will run from 0 index to 2 which is less than 3 (index < myArr.length) 
 
---------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 Break & Continue Keywords, */
 
 for (let i = 1; i <= 10; i++) {

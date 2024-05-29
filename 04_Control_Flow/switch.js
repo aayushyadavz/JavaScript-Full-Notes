@@ -16,12 +16,11 @@ switch (month) {
         console.log("April");
         break;
 
-    default:
+    default: // Note: It's like else, if nothing matches then this will print.
         console.log("Default case match");
         break;
 } // Output: March
 
-// Note: It's like else, if nothing matches then this will print.
 
 const day = "wednesday"
 

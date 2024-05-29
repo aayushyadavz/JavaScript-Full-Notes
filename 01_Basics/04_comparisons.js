@@ -7,8 +7,8 @@
 // console.log(2 == 1); // Output : false
 // console.log(2 != 1); // Output : true
 
-/* Note : Whenever we compare value then we should keep in mind that both value should
-have same Data Types. */
+/* Note : Whenever we compare value then we should keep in mind that both value should have same
+Data Types. */
 
 // ----------------------------------------------------------------------------------------------
 
@@ -23,8 +23,8 @@ compare same Data Types values. */
 // console.log(null == 0); // Output : false
 // console.log(null >= 0); // Output : true (0 >= 0)
 
-/* Note : Comparisons (<,>,<=,>=) and Equality check (==) works diffrently,
-Comparisons convert null into a number, treating it as 0. */
+/* Note : Comparisons (<,>,<=,>=) and Equality check (==) works diffrently, Comparisons convert
+null into a number, treating it as 0. */
 
 // console.log(undefined == 0);
 // console.log(undefined < 0);
@@ -36,6 +36,3 @@ Comparisons convert null into a number, treating it as 0. */
 (===) Triple Equal : Checks values as well as their Data Types. */
 
 console.log("2" === 1); // Output : false
-
-
-

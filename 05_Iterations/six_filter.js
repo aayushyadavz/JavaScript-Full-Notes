@@ -6,10 +6,9 @@ const values = coding.forEach( (item) => {
 } )
 console.log(values); // Output: Undefined
 
-/* Note: So now we know that 'for each' doesn't return any value,
-         either we use return keyword or not.
+/* Note: So now we know that 'for each' doesn't return any value, either we use return keyword or not.
 
-----------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 Filter */
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -32,7 +31,7 @@ myNums.forEach( (items) => {
 } )
 console.log(newNums);
 
-/*--------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------------------
 Example */
 
 const books = [

@@ -49,8 +49,8 @@ function userLogin(username){
 function userLogin2(username){
     if (!username){ // (!username) states (username === undefined)
         console.log("Please enter a username.");
-        return /* if "if" statement will be true then return will stop
-        code after the above console.log in this function. */
+        return /* if "if" statement will be true then return will stop code after the 
+        above console.log in this function. */
     }
     return `${username} just logged in.`
 }

@@ -25,7 +25,6 @@ myArr.shift()
 // console.log(myArr.includes(9)); // Output: false
 
 // console.log(myArr.indexOf(4)); // Output: 4 
-// Note: Indexing starts from Zero.
 // console.log(myArr.indexOf(9)); // Output: -1
 // Asking any value which doesn't exist in index gives you -1.
 
@@ -38,8 +37,8 @@ const newArr = myArr.join()
 
 (iii) slice, splice (Methods) */
 console.log("A ", myArr); // Output: A  [ 0, 1, 2, 3, 4 ]
-const myNewArr1 = myArr.slice(1, 3) /* Include value at index 1 and 2 but don't 
-include value at index 3. */
+const myNewArr1 = myArr.slice(1, 3) /* Include value at index 1 and 2 but don't include value at 
+index 3. */
 console.log(myNewArr1); // Output: [ 1, 2 ]
 console.log("B ", myArr); // Output: B  [ 0, 1, 2, 3, 4 ]
 // Note: As we can see using slice doesn't affect original array.

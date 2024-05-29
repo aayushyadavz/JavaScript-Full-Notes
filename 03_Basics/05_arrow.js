@@ -33,7 +33,7 @@ const three = function (){
 }
 // three() // Output: undefined 
 
-/* -----------------------------------------------------------------------------
+/* ----------------------------------------------------------------------------------------------------
 Arrow Function, */
 
 const chai = () => { // It's an arrow function
@@ -53,8 +53,8 @@ console.log(addTwo(3, 4)) // Output: 7
 const add = (num1, num2) => (num1 + num2)
 console.log(add(3, 4)); // Output: 7
 
-/* Note: When using curly braces {} then we have use return keyword and when
-using parenthesis () then we don't have to use return keyword. */
+/* Note: When using curly braces {} then we have use return keyword and when using parenthesis () then 
+we don't have to use return keyword. */
 
 const returnObject = () => ({username: "ayush"})
 console.log(returnObject()) // Output: { username: 'ayush' }

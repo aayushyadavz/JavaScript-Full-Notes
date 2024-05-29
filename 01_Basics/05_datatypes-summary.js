@@ -2,8 +2,8 @@
 1. Primitive Data Type &
 2. Non-Primitive Data Type
 
-Note : How Data is stored and How data is accsessed from the memory on the basis of this
-categorisation of data is done. 
+Note : How Data is stored and How data is accsessed from the memory on the basis of this categorisation of
+data is done. 
 
 Note : JavaScript is dynamically typed. 
 
@@ -25,7 +25,6 @@ const anotherId = Symbol('123')
 To check, */
 console.log(id === anotherId); // false
 const bigNumber = 23873847283748289483n // By writing n at the end it gets converted into BigInt.
-
 
 /* -------------------------------------------------------------------------------------------------------
 

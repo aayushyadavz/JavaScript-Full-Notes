@@ -1,8 +1,8 @@
 // 5. De-Structuring Object,
 
-/* Destructuring objects in JavaScript is a convenient way to extract properties 
-from objects and assign them to variables. This syntax simplifies accessing data 
-within objects and helps you write cleaner and more readable code. */
+/* Destructuring objects in JavaScript is a convenient way to extract properties from objects 
+and assign them to variables. This syntax simplifies accessing data within objects and helps 
+you write cleaner and more readable code. */
 
 const course = {
     courseName: "Learn Javascript",

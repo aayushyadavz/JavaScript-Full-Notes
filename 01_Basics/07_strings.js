@@ -13,8 +13,8 @@ console.log(`My name is ${name} and I have total ${repoCount} repositories on Gi
 -------------------------------------------------------------------------------------------------- */
 
 // (ii) One more way of declaring strings,
-const gameName = new String('SuperMario') /* When we run this in Browser's console we can see
-some interesting things there.
+const gameName = new String('SuperMario') /* When we run this in Browser's console we can see some 
+interesting things there.
 
 Some Methods of String, */
 // (a) Accessing 0th key of gameName,
@@ -48,7 +48,3 @@ console.log(url.includes('ayush')) // Output : true
 
 console.log(discordName.split('-')); /* Output : [ 'hitesh', 'hc' ] (Converted into array with
 two strings) */
-
-
-
-

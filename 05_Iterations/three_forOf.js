@@ -8,7 +8,7 @@ for (const num of numbers) {
 } 
 /* Prints array values from 1 to 5 
 
------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 'For of' on String */
 const greetings = "Hello World!"
@@ -20,7 +20,7 @@ for (const greet of greetings) {
     console.log(`Each charracter is : ${greet}`);
 }
 
-// --------------------------------------------------------
+// --------------------------------------------------------------------------------------------
 
 const map = new Map()
 map.set('IN', "India")
@@ -28,8 +28,7 @@ map.set('USA', "America")
 map.set('Fr', "France")
 // Adding the same key and value again,
 // map.set('IN', "India") // It will not be added
-/* Note: As Map is known for it's unique values and
-stays in that order on which it is entered. */
+// Note: As Map is known for it's unique values and stays in that order on which it is entered.
 
 console.log(map);
 /* Output: Map(3) { 'IN' => 'India', 'USA' => 
@@ -43,7 +42,7 @@ for (const [keys, values] /*Destructure of Array*/ of map) {
            USA = America
            Fr = France 
            
------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 'For of' on Object */
 const myObject = {
     game1: 'NFS',

@@ -1,7 +1,7 @@
 /* 3. Objects
 
-Note: When objects are declared as literals then singletons are not made,
-When objects are declared as constructors then singletons are made.
+Note: When objects are declared as literals then singletons are not made, When objects are 
+declared as constructors then singletons are made.
 
 Object through constructor method, */
 Object.create

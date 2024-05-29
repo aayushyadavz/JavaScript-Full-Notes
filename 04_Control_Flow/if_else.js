@@ -1,7 +1,8 @@
-/* Control flow, 
+/* Control flow
+
 In previous codes we have seen that our code is executing everywhere, but it should not 
 be excecuted always, whole code should run on conditional base and this is known as 
-Control/Logic Flow. */
+Control or Logic Flow. */
 
 /* Comparison Operators, 
 <, > : less than, greater than. eg. 1 < 2
@@ -41,7 +42,7 @@ if (balance > 500) console.log("Balance Greater than 500");
 if (balance < 500) {
     console.log("less than 500");
 } else if (balance < 750) {
-    console.log("ess than 750");
+    console.log("less than 750");
 } else {
     console.log("less than 1200");
 } // Output: less than 1200
