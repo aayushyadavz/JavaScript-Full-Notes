@@ -37,7 +37,7 @@
 
     // document.getElementById('owl').addEventListener('click' /* event name */, function(){
     //     alert('Owl')
-    // }, /* false */) // Third Parameter, by default it is false, so we don't need to write this always, but somtimes we have to. 
+    // }, /* false */) // Third Parameter, by default it is false, so we don't need to write this always but somtimes we have to. 
     
     //------------------------------------------------------------------------------------
 
@@ -45,7 +45,7 @@
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log(e)
-    // }) // We will get a pointerEvent in brower's console which is a object.
+    // }) // We will get a pointerEvent which is a object in brower's console.
 
     /* Some Important things to read about this,
     - type(Keyboard events, Mouse events), timestamps, preventDefault
@@ -58,9 +58,9 @@
     Event Propagation */
 
     // Bubbling
-    document.getElementById('images').addEventListener('click', function(e){
-        console.log('Clicked inside ul');
-    }, false) 
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log('Clicked inside ul');
+    // }, false) 
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log('Clicked on owl');
@@ -75,22 +75,22 @@
     //     console.log('Clicked on owl');
     // }, true)
 
-    document.getElementById('owl').addEventListener('click', function(e){
-        console.log('Clicked on owl');
-        e.stopPropagation() // inner element will not bubble and go upper on outer element.
-    }, false) 
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log('Clicked on owl');
+    //     e.stopPropagation() // inner element will not bubble and go upper on outer element.
+    // }, false) 
 
     // document.getElementById('google').addEventListener('click', function(e){
     //     console.log("Google Clicked");
     //     e.preventDefault() // clicking on that anchor tag will not redirect us to any site.
     // }, false)
 
-    // document.querySelector('#images').addEventListener('click', function(e){
-    //     if (e.target.tagName === 'IMG') {
-    //         let removeIt = e.target.parentNode; /* gives parent (li) of that image cause 
-    //         we have to remove bullet points also. */
-    //         removeIt.remove();
-    //     }
-    // }, false)
+    document.querySelector('#images').addEventListener('click', function(e){
+        if (e.target.tagName === 'IMG') {
+            let removeIt = e.target.parentNode; /* gives parent (li) of that image cause 
+            we have to remove bullet points also. */
+            removeIt.remove();
+        }
+    }, false)
 </script>
 </html>
