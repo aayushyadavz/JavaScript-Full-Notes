@@ -23,3 +23,5 @@ If you have any feedback, please reach out to us at ayushyadav24nov1234@gmail.co
 
 ### 06_DOM / one_introToDOM.html / Diagram
 ![Alt Text](/go_in_readme.md/IMG_20240524_130230_425.jpg)
+
+### 09_Async / Diagram
