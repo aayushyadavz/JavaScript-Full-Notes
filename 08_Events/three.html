@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Interval</title>
+</head>
+<body>
+    <h1></h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // Took a variable globally
+    let start;
+
+    // Made a func. to update h1's inner text
+    function addText(str) {
+        document.querySelector('h1').innerHTML += str
+    }
+    
+    // Added a addEventListener in which a setInterval to perform a task on every 1 sec
+    document.querySelector('#start').addEventListener('click', function(){
+        start = setInterval(addText, 1000, ' Run') // (' Run') parameter passed
+    })
+
+    // Added a addEventListener to stop that interval
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearInterval(start)
+    })
+</script>
+</html>
