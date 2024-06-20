@@ -1,4 +1,4 @@
-# Javascript Full Notes
+# Javascript Full Notes 📖
 
 Basically in this repo you will find the Javascript topic wise codes with notes on every line of code. Beginner friendly JS notes, you can learn, revise e.t.c.
 
@@ -11,8 +11,8 @@ I'm currently learning Web Developemt & I'm also doing learn in public on my Twi
 
 If you have any feedback, please reach out to us at ayushyadav24nov1234@gmail.com & [ayushyadavz](https://twitter.com/ayushyadavz)
 
-
-## Extra Notes
+ 
+## Some Extra Notes 📖
 ### 06 Stack and Heap
 ![Alt Text](/go_in_readme.md/IMG_20240418_015525_14.jpg)
 
@@ -23,3 +23,8 @@ If you have any feedback, please reach out to us at ayushyadav24nov1234@gmail.co
 
 ### 06_DOM / one_introToDOM.html / Diagram
 ![Alt Text](/go_in_readme.md/IMG_20240524_130230_425.jpg)
+
+### 09_Async
+![Alt Text](/go_in_readme.md/Img_One.jpg)
+#### Diagram
+![Alt Text](/go_in_readme.md/Img_Two.jpg)
