@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Timeout</title>
+</head>
+<body>
+    <h1>Ayush</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // Made a func. to add some extra text to h1
+    function addSurname() {
+        document.querySelector('h1').innerHTML += " Yadav"
+        console.log("Surname Added");
+    }
+
+    // Added a setTimeout method to that func. to perform that task after 3 seconds
+    const stopMe = setTimeout(addSurname, 3000)
+
+    // Added a addEventListener to stop that setTimeout method on clicking stop button
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(stopMe)
+        console.log("Stopped");
+    })
+</script>
+</html>
