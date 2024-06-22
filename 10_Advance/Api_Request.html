@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: system-ui, sans-serif;
+            background-color: #373A40
+        }
+
+        .container {
+            text-align: center;
+            background-color: #EEEEEE;
+            width: 300px;
+            height: 250px;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        #profile-pic {
+            margin-top: 48px;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            border: 5px solid #DC5F00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img id="profile-pic" src="" alt="GitHub Profile Picture" >
+        <p id="followers-count"></p>
+    </div>
+
+    <!-- To Know about : XMLHttpRequest: readyState property, refer this link. 
+    https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState -->
+
+    <script>
+        // Sending XML request also known as Ajax Request.
+
+        // Creating a object using new keyword
+        const xhr = new XMLHttpRequest()
+        const requestUrl = "https://api.github.com/users/AayushYadavz"
+
+        // Sending request
+        xhr.open("GET", requestUrl) // State 1
+
+        // Tracking continuous State change
+        xhr.onreadystatechange = function(){ // On every state change function excecutes continuously
+            // Checking State change using console.log
+            // console.log(xhr.readyState);
+            if (xhr.readyState === 4) {
+                // Response comes in strings most of the time that's why converting it into JSON
+                const data = JSON.parse(this.responseText); 
+                // console.log(typeof data); // Object
+                // console.log(data.followers); // 29
+
+                // Selecting elements and showing the data using those elements
+                const image = document.querySelector('#profile-pic')
+                image.src = data.avatar_url
+                const para = document.querySelector('#followers-count')
+                para.textContent = `GitHub Followers Count : ${data.followers}`
+            }
+        }
+
+        // Making a Call
+        xhr.send();
+    </script>
+</body>
+</html>
