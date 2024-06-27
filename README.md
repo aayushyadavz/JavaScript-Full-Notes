@@ -28,3 +28,6 @@ If you have any feedback, please reach out to us at ayushyadav24nov1234@gmail.co
 ![Alt Text](/go_in_readme.md/Img_One.jpg)
 #### Diagram
 ![Alt Text](/go_in_readme.md/Img_Two.jpg)
+
+### 10_Fetch
+![Alt Text](/go_in_readme.md/fetch.jpg)
