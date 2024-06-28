@@ -105,3 +105,5 @@ fetch('https://api.github.com/users/AayushYadavz')
 })
 .then((data) => {console.log(data);})
 .catch((err) => {console.log(err);})
+
+//------------------------------- Fetch Notes & Diagram is in readme.md ---------------
