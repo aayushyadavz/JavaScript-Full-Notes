@@ -1,10 +1,12 @@
 // Object Literals (Creating a object literally)
 
 const user = {
+    // Properties
     username: "ayushyadavz",
     logInCount: 8,
     signedIn: true,
 
+    // Method
     getUserDetails: function () {
         console.log("Got user details from Database");
         console.log(`username: ${this.username}`); // Gives current context username value.
@@ -28,9 +30,15 @@ const date = new Date()
 
 Example, */
 function User(username, logInCount, signedIn) {
+    // Properties
     this.username = username // left side is variable
     this.logInCount = logInCount
     this.signedIn = signedIn
+
+    // Method
+    this.greeting = function(){
+        console.log(`Welcome ${this.username}`);
+    }
 
     return this
 }
@@ -45,3 +53,4 @@ function User(username, logInCount, signedIn) {
 const userOne = new User("Ayush", 8, false)
 const userTwo = new User("Deepu", 10, true)
 console.log(userOne);
+console.log(userOne.constructor); // Output : [Function: User] (reference of it's own)
