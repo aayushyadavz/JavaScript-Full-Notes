@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIND</title>
+</head>
+<body>
+    <button>Click Me</button>
+</body>
+<script>
+    class React {
+        constructor(){
+            this.library = "React"
+            this.server = "https://localhost:300"
+
+            document
+                .querySelector("button")
+                .addEventListener("click", this.handleClick.bind(this)) 
+                /* we attached reference of those upper variables to handleClick,
+                so that it can access React server variable. */
+        }
+        handleClick(){
+            console.log("Button Clicked");
+            console.log(this.server); // accessing
+        }
+    }
+    // Creating Object
+    const app = new React()
+</script>
+</html>
