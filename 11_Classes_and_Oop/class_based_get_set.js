@@ -1,4 +1,5 @@
 // Getters and Setters
+// class based get set
 
 class User {
     constructor(email, password){
