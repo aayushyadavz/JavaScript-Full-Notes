@@ -1,0 +1,25 @@
+<!-- Closures -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closures</title>
+</head>
+<body>
+
+</body>
+<script>
+    function makeFunc(){
+        const username = "ayushyadavz"
+        function displayUsername(){
+            console.log(username);
+        }
+        return displayUsername // function reference passed as return
+    }
+// when we return any function then whole lexical scope of the function has been returned
+    const myFunc = makeFunc()
+    myFunc()
+</script>
+</html>
