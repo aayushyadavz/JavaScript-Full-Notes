@@ -1,0 +1,28 @@
+<!-- Lexical scoping -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexical Scoping</title>
+</head>
+<body>
+<script>
+    function outer(){
+        let name = "Ayush Yadav"
+        console.log("Inner", secret); // Outer doesn't have access of Inner function
+        function inner(){
+            let secret = "123abc"
+            console.log("Outer", name) // inner has the access of outer function
+        }
+        function innerTwo(){
+            console.log("Inner",secret); // innerTwo doesn't have access of inner function
+        }
+        inner()
+        innerTwo()
+    }
+    outer()
+</script>
+</body>
+</html>
