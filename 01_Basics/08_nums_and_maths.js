@@ -9,13 +9,13 @@ const balance = 400
 // But we can also define explicitely the data type,
 const newBalance = new Number(400)
 // console.log(newBalance); // Output: [Number: 400]
-// Note: When we do this in browser console the we can see the methods. 
+// Note: When we do this in browser console then we can see the methods. 
 
 // ---------------------------------------------------------------------------------------------------------
 
 // Some Methods,
 // console.log(newBalance.toString()); // Output: 400 
-// Note: When we will check it's typeof the we will see that it is changed into strings.
+// Note: When we will check it's typeof then we will see that it is changed into strings.
 // console.log(newBalance.toString().length); // Output: 3 (cause 400 has 3 chracters.)
 
 // console.log(newBalance.toFixed(2)); // Output: 400.00
