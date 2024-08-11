@@ -25,7 +25,7 @@ const jsUser = {
 // Accessing Objects,
 console.log(jsUser.email); // Output: ayushyadav@gmail.com | Not the best way to access.
 console.log(jsUser["email"]); /* Output: ayushyadav@gmail.com | Using "" cause this key 
-(email) is treated as strings behind the screen. */
+(email) is treated as strings behind the scene. */
 console.log(jsUser["full name"]); /* Output: Ayush Yadav 
 Note: It's not possible to access it like this (console.log(jsUser.full name)) */
 console.log(jsUser[mySym]); /* Acessing that symbol used as key in Object.
